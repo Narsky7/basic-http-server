@@ -1,5 +1,5 @@
-#include "main.h"
-#include "tcp.h"
+#include "../include/main.h"
+#include "../include/tcp.h"
 
 server_status_e bind_tcp_port(tcp_server *server, int port) {
   memset(server, 0, sizeof(*server));

@@ -1,5 +1,5 @@
-#include "main.h"
-#include "tcp.h"
+#include "../include/main.h"
+#include "../include/tcp.h"
 
 void debug_log(char msg[]) { printf("DEBUG LOG: %s\n", msg); }
 
